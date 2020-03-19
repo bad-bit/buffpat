@@ -11,7 +11,7 @@ def main():
 
 	parser = argparse.ArgumentParser(
 		description='A tool to create and find cyclical patterns for buffer overflows.', 
-		prog='cyclic_patterns.py',
+		prog='buffpat.py',
 		usage='%(prog)s --help <for help> -l <Length of pattern to create> -s <pattern to search>')
 	parser.add_argument("-l", "--length", help="Length of the pattern", dest='length', type=int)
 	parser.add_argument("-s", "--search", help="Pattern to search", type=str, dest='search')
